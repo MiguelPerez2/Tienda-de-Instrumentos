@@ -1,0 +1,35 @@
+.img-prod{
+    height: 120px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+.text-description{
+    font-size: 14px;
+}
+.text-small{
+  font-size: 10px;
+  color: rgb(197, 162, 162);
+}
+.text-lg-red{
+  color: rgb(230, 97, 97);
+}
+.backInLeft {
+    animation-name: backInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}  
+@keyframes backInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-1000px) scaleX(0.7);
+    }
+    80% {
+      transform: translateX(20px) scaleX(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0) scaleX(1);
+    }
+}

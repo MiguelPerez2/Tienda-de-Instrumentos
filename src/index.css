@@ -1,13 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('./assets/css/cart.css');
+@import url('bootstrap/dist/css/bootstrap.min.css');
+@import url("bootstrap-icons/font/bootstrap-icons.css");
+@import url("./assets/css/home.css");
+@import url("./assets/css/buttons.css");
+@import url("./assets/css/actions.css");
+@import url("./assets/css/register.css");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container-fluid {
+    min-height: 100vh;
+}
+/* .container{
+    margin: 0px;
+} */
+.text-justify{
+    text-align: justify;
 }
