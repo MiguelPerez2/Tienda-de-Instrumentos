@@ -1,0 +1,25 @@
+.btn-nav{
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+    border: 0;
+    transition: color .5s;
+}
+.btn-nav:hover{
+    color: rgb(175, 175, 175);
+    transition: color .2.5s;
+}
+.btn-login{
+    color: black !important;
+    background-color: rgba(214, 233, 233, 0.644) !important;
+    border-color: transparent !important;
+}
+.btn-card{
+    color: black !important;
+    background-color: rgba(214, 223, 233, 0.644) !important;
+    border-color: transparent !important;
+    transition: background-color .5s;
+}
+.btn-card:hover{
+    background-color: rgba(173, 173, 173, 0.644) !important;
+}

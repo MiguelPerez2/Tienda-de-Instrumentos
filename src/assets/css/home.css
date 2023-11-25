@@ -1,0 +1,60 @@
+.imagen-principal {
+    background: url('../img/home/guitarra.jpg') bottom/cover no-repeat fixed; 
+    background-position: center;
+    height: 50vh; 
+   }
+
+.imagen-fondo{
+    /* width: 1000px;  */
+    background: url('../img/home/imagen-fondo.jpg') top/cover no-repeat scroll; 
+    background-position: center;
+    height:40cap; 
+}
+.fondo{
+    background-color: rgb(241, 241, 241);
+    align-items: center;
+}
+.imagen{
+    display:flex; 
+    align-items:center;
+    align-Content:center; 
+    justify-Content:center;
+    justify-Items:center;
+    justify-Self: center;
+}
+.carta {
+    width: 1000px; 
+    height: 45cap;
+    margin: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 20px; 
+    overflow: hidden; 
+    background-color: rgb(167, 219, 208);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .letra{
+    font-Family: sans-serif;
+    font-Family: bold;
+    text-Align: center;
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+   
+  }
+
+  .contenedor-imagen {
+    position: relative;
+    width: 100%;
+  }
+
+  .text-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+  }
