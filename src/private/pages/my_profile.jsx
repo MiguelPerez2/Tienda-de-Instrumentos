@@ -44,7 +44,7 @@ export const MyProfile =()=>{
 
   return(
     <div className="col-12 d-flex justify-content-center backInLeft">
-      <div className="col-6 mb-5">
+      <div className="col-12 col-md-6 mb-5">
         <div className="card border-0 shadow-sm">
           <span className='h5 p-4'>_Mi perfil</span>
           <div className="card-body p-4">
