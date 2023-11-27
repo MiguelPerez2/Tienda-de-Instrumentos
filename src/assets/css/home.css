@@ -22,15 +22,8 @@
     justify-Items:center;
     justify-Self: center;
 }
-.carta {
-    width: 1000px; 
-    height: 45cap;
-    margin: 10px;
-    border: 1px solid #ddd; 
-    border-radius: 20px; 
-    overflow: hidden; 
-    background-color: rgb(167, 219, 208);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.color-carta {
+    background-color: rgb(167, 219, 208);background-color: rgb(167, 219, 208);
   }
 
   .letra{

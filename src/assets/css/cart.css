@@ -8,6 +8,9 @@
 .text-description{
     font-size: 14px;
 }
+.text-description_home{
+  font-size: 24px;
+}
 .text-small{
   font-size: 10px;
   color: rgb(197, 162, 162);

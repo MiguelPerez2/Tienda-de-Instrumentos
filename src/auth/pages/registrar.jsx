@@ -149,15 +149,15 @@ export const RegistarPage=()=>{
   return (
     <>
     <div className="row">
-      <div className="col-6 d-flex justify-content-center">
+      <div className="col-12 col-md-6 d-flex justify-content-center">
         <div className="col-12">
         <form className='formRegister' onSubmit={handleSubmit}>
           <h1 className='tittle'>Crear Cuenta</h1>
           {/* Redes Sociales */}
           <div className="social-container">
-            <a href="#" className="social"><i className="fab fa-facebook-f"></i></a>
-            <a href="#" className="social"><i className="fab fa-google-plus-g"></i></a>
-            <a href="#" className="social"><i className="fab fa-linkedin-in"></i></a>
+            <a href="#" className="social"><i className="bi bi-facebook"></i></a>
+            <a href="#" className="social"><i className="bi bi-google"></i></a>
+            <a href="#" className="social"><i className="bi bi-linkedin"></i></a>
           </div>
           <span className='opcion'>o utilice su correo electrónico para registrarse</span>
 
@@ -182,7 +182,7 @@ export const RegistarPage=()=>{
         </form>
         </div>
       </div>
-      <div className="col-6">
+      <div className="col-12 col-md-6">
         <div>
           <img src={iconMusic} alt="Music" className='img'/>
         </div>
